@@ -2,6 +2,14 @@
 
 🏟 live site: https://dribbble-1bba9.web.app/
 
+## 🏠 Home Page
+
+![Home Page](/public/images/homepage.jpg)
+
+## 📱 Installable as a Progressive Web App
+
+![Home Page](/public/images/appInstall.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
