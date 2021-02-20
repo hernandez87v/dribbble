@@ -1,0 +1,21 @@
+header#navbar-header {
+  position: relative;
+  z-index: 1;
+  height: 5vw;
+  box-shadow: inset 0px -1px 0px #f3f4f4;
+}
+
+.App-logo {
+  width: 10%;
+  height: 10%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+img.App-logo:hover {
+  filter: invert(50%);
+}
