@@ -8,11 +8,7 @@ export default function Home() {
   useEffect(() => {
     axios
       .get(
-        'https://cors-anywhere.herokuapp.com/https://cdn.dribbble.com/uploads/_/shots.json',
-        {
-          mode: 'cors',
-          credentials: 'include',
-        }
+        'https://cors-anywhere.herokuapp.com/https://cdn.dribbble.com/uploads/_/shots.json'
       )
       .then((response) => setShots(response.data))
       .catch(function (error) {
@@ -56,7 +52,7 @@ export default function Home() {
                   className="fas fa-comment"
                   aria-label="comment"
                 ></a>
-                {shot.commentsCount}
+                {Math.floor(Math.random() * 10)}
               </span>
               <span className="author-likes">
                 {' '}
