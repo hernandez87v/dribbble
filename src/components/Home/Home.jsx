@@ -24,9 +24,19 @@ export default function Home() {
     <div className="all-cards">
       {shots.map((shot) => (
         <div className="card-content" key={shot.id}>
-          <img className="shot-still" src={shot.stillUrl} />
+          <img
+            rel="preload"
+            as="image"
+            className="shot-still"
+            src={shot.stillUrl}
+          />
           <div className="author-info">
-            <img className="author-avatar" src={shot.author.avatarUrl} />
+            <img
+              rel="preload"
+              as="image"
+              className="author-avatar"
+              src={shot.author.avatarUrl}
+            />
             <span className="author-name">{shot.author.name}</span>
             {shot.author.isPro === false && shot.author.isTeam === false ? (
               <span className="badge-neither"></span>
@@ -39,6 +49,8 @@ export default function Home() {
             <div className="author-stats">
               <span className="author-comments">
                 <a
+                  rel="preload"
+                  as="image"
                   target="_blank"
                   rel="noopener noreferrer preload"
                   className="fas fa-comment"
@@ -49,6 +61,8 @@ export default function Home() {
               <span className="author-likes">
                 {' '}
                 <a
+                  rel="preload"
+                  as="image"
                   target="_blank"
                   rel="noopener noreferrer preload"
                   className="fas fa-heart"
