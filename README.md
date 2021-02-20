@@ -2,6 +2,22 @@
 
 🏟 live site: https://dribbble-1bba9.web.app/
 
+## How did I approach this challenge? 🤔
+
+I started this challenge by checking the provided JSON URL paths in Postman. Once I saved each path needed (ex. shot.author.avatarUrl) I proceeded to create-react-app. I started with a barebones html site to test each path making sure it loaded into the localhost. I ran into an issue with CORS so setup a workaround using [cors-anywhere](https://github.com/Rob--W/cors-anywhere). Once I had everything loaded from the JSON URL I proceeded to make it all as nice as I could according to the thumnail provided.
+
+## What would I do with more time? ⌚
+
+- The clock was ticking and I had started this challenge wanting to use VueJS but found out quickly that I would be able to get a lot more done with ReactJS as I'm more familiar with it.
+
+- I had set everything up in one page hoping there would be time to seperate into components later.
+
+- I'm itching to just spruce up the css and get this all pixel perfect
+
+- Also holding back from further changes so I can meet requirements to get as close as possible to a perfect lighthouse score.
+
+- Figure out and fix the CORS issue so a workaround isnt needed.
+
 ## 🏠 Home Page
 
 ![Home Page](/public/images/homepage.jpg)
