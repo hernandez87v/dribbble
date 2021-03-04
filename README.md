@@ -1,3 +1,7 @@
+## `To view live site or to Run:`
+
+Click on [link](https://cors-anywhere.herokuapp.com/corsdemo) to `request temporary access to the demo server`
+
 # Dribbble Challenge 🏀
 
 🏟 live site: https://dribbble-1bba9.web.app/
@@ -13,10 +17,6 @@ I started this challenge by checking the provided JSON URL paths in Postman. Onc
 ## 📱 Installable as a Progressive Web App
 
 ![Home Page](/public/images/appInstall.jpg)
-
-## `Before running`
-
-Click on [link](https://cors-anywhere.herokuapp.com/corsdemo) to `request temporary access to the demo server`
 
 ## Available Scripts
 
